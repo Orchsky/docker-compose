@@ -29,3 +29,7 @@ Docker-compose commands
 3. docker-compose stop
 4. docker-compose start
 5. docker-compose down
+
+
+mysqldump -u root -h db_host -p testdb > /tmp/db.sql
+
